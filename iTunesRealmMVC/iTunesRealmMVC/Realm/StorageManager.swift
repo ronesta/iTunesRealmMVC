@@ -8,7 +8,7 @@
 import Foundation
 import RealmSwift
 
-class StorageManager: NSObject {
+final class StorageManager: NSObject {
     static let shared = StorageManager()
 
     private override init() {
@@ -113,4 +113,3 @@ extension StorageManager {
         }
     }
 }
-
